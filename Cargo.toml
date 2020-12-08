@@ -1,0 +1,12 @@
+[package]
+name = "crab-toolchain"
+version = "0.1.0"
+authors = ["pintera"]
+edition = "2018"
+license = "MIT"
+
+[[bin]]
+path = "src/main.rs"
+name = "crab"
+
+[dependencies]
